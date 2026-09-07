@@ -6,7 +6,7 @@ Front end for the users manager. List people, search them, filter by gender, add
 
 Needs the Java server running on port 8080:
 
-https://github.com/alexandrosgialantzis/Users-api
+https://github.com/evangelosvlachos96-dotcom/users-ui
 
 The proxy line in `package.json` sends every call under `/api` there during development, which is why the axios base url is just `/api` and no host is written in the code.
 
@@ -45,7 +45,7 @@ The empty, error, and loading states are their own components, so the pages read
 ## Run it
 
 ```
-git clone https://github.com/alexandrosgialantzis/Users-ui.git
+git clone https://github.com/evangelosvlachos96-dotcom/users-ui.git
 npm install
 npm start
 ```
